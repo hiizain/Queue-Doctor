@@ -1,0 +1,415 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 360px 0;
+  background-image: url('../assets/bg/bg1.png');
+  background-size: cover;
+  color:rgb(255, 255, 255);;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-color: #D7B94C;
+  
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  background-image: url('../assets/bg/bg1.png');
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+}
+
+.header-right hr {
+  margin-top: 15px;
+  color: white;
+}
+
+.header-top {
+  float: right;
+}
+
+.header-top p{
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  color: white;
+  font-size: 12px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 40px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.header-right a:hover {
+  background-color: #D7B94C;
+  border-radius: 15px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+/* Landing */
+.daftar{
+  width: 50%; 
+  float:left;
+  border-right: 5px solid rgb(245, 245, 245);
+}
+
+.daftar img{
+  margin-left: 40px;
+  height:260px;
+  float:left;
+}
+
+.daftar p{
+  
+  float: right;
+  margin-top : 80px;
+  margin-right: 5%;
+  
+}
+
+.daftar button:hover {
+  background-color: white; /* Green */
+  color: #002B7D;
+}
+.daftar button{
+  float: right;
+  margin-top : 5%;
+  margin-right: 20%;
+  padding : 10px;
+  font-size: 16px;
+  border-radius: 12px;
+
+  background-color: #002B7D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.batal{
+
+  width: 50%; 
+  float:right;
+  
+}
+
+.batal img{
+  margin-right: 40px;
+  height:260px;
+  float: right;
+
+  
+}
+
+.batal p{
+  
+  float: left;
+  margin-top : 80px;
+  margin-left: 5%;
+  
+}
+
+.batal button:hover {
+  background-color: white; /* Green */
+  color: #002B7D;
+}
+.batal button{
+  float: left;
+  margin-top : 5%;
+  margin-left: 15%;
+  padding : 10px;
+  font-size: 16px;
+  border-radius: 12px;
+
+  background-color: #002B7D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Cek.php */
+/* Form Cek NIK dan Nama */
+
+.pembatas{
+position: relative;
+width: 80%;
+height:30px;
+margin-left: 8%;
+margin-right: 10%;
+margin-top: -10px;
+z-index: 10;
+background: #D7B94C;
+border-radius: 15px;
+margin-bottom: 1px;
+}
+
+
+
+/* Pilihan Dokter / Jadwal */
+
+.content {
+  padding-top: 150px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.tab {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.tab a {
+  line-height: 40px;
+  color: rgba(0,43,125,1.00);
+  transition: all 0.5s;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 40px;
+}
+
+.tab a:hover {
+  background-color: rgba(0,43,125,1.00);
+  color: rgba(255,255,255,1.00);
+  font-weight: bold;
+  padding: 10px 40px;
+}
+
+.line-content {
+  color: rgba(0,43,125,1.00);
+}
+
+.doctors {
+  text-align: center;
+}
+
+.doctor {
+  display: inline-block;
+  width: 20%;
+  margin: 15px;
+  text-align: center;
+}
+
+.doctor img {
+  width: 75%;
+  border-radius: 50%;
+}
+
+.doctor h4 {
+  margin-top: 15px;
+  color: rgba(0,43,125,1.00);
+}
+
+.doctors h2 {
+  margin: 15px 0 15px 0;
+  color: rgba(0,43,125,1.00);
+}
+
+.schedules {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.border-schedule {
+  width: 40%;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgba(0,43,125,1.00);
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.schedule {
+  text-align: center;
+  margin: 20px 0 20px 40px;
+}
+
+.schedule h2 {
+  color: rgba(0,43,125,1.00);
+  margin-left: -40px;
+}
+
+.input {
+  text-align: left;
+  float: left;
+  width: 50%;
+  margin: 30px 0;
+
+}
+
+.input p {
+  font-weight: bold;
+  color: rgba(0,43,125,1.00);
+}
+
+.input input,select {
+  width: 80%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.submit {
+  color: white;
+  background-color: rgba(0,43,125,1.00);
+  transition: all 0.5s;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 5px 40px;
+  margin-left: -40px;
+  border: none;
+}
+
+.dates {
+  text-align: center;
+}
+
+.date {
+  display: inline;
+  text-align: center;
+}
+
+.date a {
+  padding: 15px 0;
+  font-weight: bolder;
+  color: rgba(0,43,125,1.00);
+  width: 13.5%;
+  display: inline-block;
+}
+
+.hari {
+  font-size: 26px;
+}
+
+.date a:hover {
+  background-color: rgba(0,43,125,1.00);
+  color: white;
+}
+
+.date a.active {
+  background-color: rgba(0,43,125,1.00);
+  color: white;
+}
+
+.times {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.time.active {
+  display: inline-block;
+  text-align: center;
+}
+
+.time {
+  display: none;
+}
+
+.waktu-normal {
+  padding: 15px 25px;
+  font-weight: bolder;
+  color: rgba(0,43,125,1.00);
+  width: 15%;
+  margin: 15px 5px;
+  display: inline-block;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgba(0,43,125,1.00);
+}
+
+.waktu-red {
+  padding: 15px 25px;
+  font-weight: bolder;
+  color: #fff;
+  width: 15%;
+  margin: 15px 5px;
+  display: inline-block;
+  border-style: solid;
+  border-width: medium;
+  border-color: #C00303;
+  background-color: #C00303;
+}
+
+/* Pilihan Dokter / Jadwal */
+
+
+.nik {
+  width: 250px;
+  height: 20px;
+  left: 631px;
+  top: 577px;
+  margin: 60px;
+  }
